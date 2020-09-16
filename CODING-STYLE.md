@@ -38,3 +38,16 @@ default:
 
 Spaces are never to be used for indentation outside of comments.  Any use of
 spaces for alignment purposes is permitted, but leave no trailing whitespace.
+
+
+## II. Breaking Long Lines
+
+The preferred maximum line length is 80 characters.  This is not a hard limit,
+however it is done to maintain readability.
+
+Where possible, statements that take up more than 80 characters should be
+broken into sensible chunks, unless it significantly decreases readability.
+
+Never break user-visible strings, this will break the ability to grep for them.
+
+In short, the 80 character limit is a *recommendation*.
