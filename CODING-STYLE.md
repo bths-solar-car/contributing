@@ -51,3 +51,96 @@ broken into sensible chunks, unless it significantly decreases readability.
 Never break user-visible strings, this will break the ability to grep for them.
 
 In short, the 80 character limit is a *recommendation*.
+
+
+## III. Brace Placement
+
+In a language like C, brace placement doesn't really matter, and there is no
+reason to use one placement style over another.  That being said, the preferred
+style is to put opening braces at the end of a line, and closing braces at the
+beginning.
+
+> Example:
+
+```c
+if (x) {
+	y = returnSomething();
+	x -= 2;
+}
+```
+
+This applies to all non-function statement blocks (`if`, `switch`, `for`,
+`while`, `do`).
+
+> Example:
+
+```c
+for (int i = 0; i < 4; i++) {
+	dest[2, i] = source[i];
+	++source[i];
+}
+```
+
+However, the only exception to this rule are functions: they have the opening
+brace at the beginning of a new line.  This may seem inconsistent, but it makes
+functions far more pronounced.
+
+> Example:
+
+```c
+int main(int argc, char *argv[])
+{
+	body of function
+}
+```
+
+Closing braces are always at the beginning of an empty line, **except** when
+followed by a statement like `else` or `while` in a do-statement.
+
+> Example:
+
+```c
+if (x != y) {
+	..
+} else if (x >= y) {
+	...
+} else {
+	....
+}
+```
+
+```c
+do {
+	body of loop
+} while (condition);
+```
+
+Do not use braces for a single statement.
+
+> Example:
+
+```c
+if (condition)
+	action();
+```
+
+```c
+if (condition)
+	doThis();
+else
+	orThis();
+```
+
+However, this does not apply when only one branch of a conditional statement has
+a single statement.
+
+> Example:
+
+```c
+if (condition) {
+	doThis();
+} else {
+	orThis();
+	andThat();
+}
+```
