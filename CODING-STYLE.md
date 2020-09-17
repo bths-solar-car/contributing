@@ -144,3 +144,51 @@ if (condition) {
 	andThat();
 }
 ```
+
+
+## IV. Spacing
+
+Use spaces after these keywords:
+	`if`, `for`, `switch`, `case`, `do`, `while`
+
+But not with:
+	`sizeof`, `typeof`, `alignof`, or `__attribute__`
+
+> Example:
+
+```c
+x = sizeof(int);
+```
+
+Do not add spaces around parenthesized expressions.
+
+> **BAD** Example:
+
+```c
+x = sizeof( int );
+```
+
+When declaring a pointer, the preferred use of `*` is adjacent to the data or
+function name and not adjacent to the data type.
+
+> Example:
+
+```c
+char *input;
+int *dummy(char *x);
+```
+
+Use one space around (each side of) most unary, binary, and ternary operators.
+
+> Example:
+
+```c
+x = (condition < reading) ? y : z;
+c = a & ~b;
+```
+
+There should be no space before the postfix increment/decrement operators.
+
+There should be no space after the prefix increment/decrement operators.
+
+There should be no space around the `.` and `->` structure member operators.
