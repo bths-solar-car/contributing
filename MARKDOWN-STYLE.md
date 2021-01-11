@@ -6,15 +6,15 @@ and consistent within the whole corpus.
 
 We seek to balance three goals:
 
-1. _Source text is readable and portable_
-2. _Markdown files are maintainable over time and across teams_
-3. _The syntax is simple and easy to remember_
+1. _Source text is readable and portable_.
+2. _Markdown files are maintainable over time and across teams_.
+3. _The syntax is simple and easy to remember._
 
 **Contents:**
 
 1. [Doc layout](#doc-layout)
 2. [Writing style](#writing-style)
-	1. [Character line limit](#CHaracter-line-limit)
+	1. [Character line limit](#character-line-limit)
 	2. [Trailing whitespace](#trailing-whitespace)
 	3. [Double spacing](#double-spacing)
 3. [Headings](#headings)
@@ -44,7 +44,7 @@ Content.
 * https://link-to-more-info
 ```
 
-Let's break this down.
+**Let's break this down.**
 
 1. `# Document Title`: This heading should be a level 1 heading and ideally
 					the same as the filename.
@@ -55,13 +55,13 @@ Let's break this down.
 					yourself as a complete newbie and ask yourself questions.
 					"What is this? Why should I use this?"
 3. `[TOC]`: If you are writing a long page on a topic, you should include
-		a table of contents such that newbies will be able to jump quickly to
+		a table of contents such that people will be able to jump quickly to
 		a specific section.  In some hosting platforms like Gitiles, putting
 		`[TOC]` can automatically generate a table of contents based on the
 		headings in the page.  Note: GitHub-flavored Markdown does not support
 		this.
 4. `## Topic`: The rest of the page's headings should start as level 2.
-5. `## See also`: Put misc.  links at the bottom if the reader wants to
+5. `## See also`: Put misc. links at the bottom if the reader wants to
 				know more or didn't find what they needed.
 
 ## Writing Style
@@ -98,7 +98,7 @@ for details.
 
 ### Trailing whitespace
 
-Don't use trailing whitespace.
+**Don't use trailing whitespace.**
 
 Although the official ruling on whitespace is to insert two spaces at the
 end of a line to create a break line, most hosting platforms don't
@@ -157,7 +157,7 @@ It's much easier to read this compared to this:
 ```markdown
 ...text before.
 
-#Heading 1
+# Heading 1
 Text after...  DO NOT DO THIS
 ```
 
@@ -182,15 +182,15 @@ Prefer numbered lists, because it's nicer to read in source:
 ```
 
 Note: Please use tables when _absolutely_ necessary.  It is such a pain to
-write tables in Markdown and they are not appealing in source.
+write tables in Markdown and they are not appealing in the source file.
 
 ## Links
 
 It's a well known fact that long links make source Markdown hard to read
 and break the 79 character limit.
-**Wherever possible, shorten your links**
+**Wherever possible, shorten your links.**
 
-**Use informative Markdown link titles**
+**Use informative Markdown link titles.**
 
 Markdown link syntax allows you to set a title to each link so that you shorten
 the link and describe it.
@@ -223,7 +223,7 @@ If you use them sparingly and wisely, you'll find it is very helpful.
 
 Note how the syntax includes an `!` to denote an image reference.
 ```md
-![diffy the kung fu review cuckoo](http://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
+![boofy the long edition](http://lorem.ipsum.com/boofy_screenshot.png)
 ```
 
 ## Code
@@ -291,8 +291,8 @@ list.
 
 ## See also
 
-To get you familiar with the syntax, we recommend this 10 minute hands-on
-[tutorial on markdown](https://www.markdownguide.org/basic-syntax/)
+To get you familiar with the syntax, we recommend this 10 minute [hands-on
+tutorial on markdown](https://www.markdownguide.org/basic-syntax/)
 
 If you prefer to read about the specific Markdown we'll be using, this
 [GitHub guide](https://guides.github.com/features/mastering-markdown/)
