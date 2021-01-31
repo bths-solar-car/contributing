@@ -12,19 +12,19 @@ We seek to balance three goals:
 
 **Contents:**
 
-1. [Doc layout](#doc-layout)
-2. [Writing style](#writing-style)
-	1. [Character line limit](#character-line-limit)
-	2. [Trailing whitespace](#trailing-whitespace)
-	3. [Double spacing](#double-spacing)
-3. [Headings](#headings)
-	1. [Add spacing to headings](#add-spacing-to-headings)
-4. [Lists](#lists)
-5. [Links](#links)
-6. [Images](#images)
-7. [Code](#code)
-	1. [Inline](#inline)
-	2. [Codeblocks](#codeblocks)
+1. [Doc layout](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#doc-style)
+2. [Writing style](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#writing-style)
+	1. [Character line limit](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#character-line-limit)
+	2. [Trailing whitespace](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#trailing-whitespace)
+	3. [Double spacing](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#double-spacing)
+3. [Headings](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#headings)
+	1. [Add spacing to headings](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#add-spacing-to-headings)
+4. [Lists](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#lists)
+5. [Links](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#links)
+6. [Images](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#images)
+7. [Code](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#code)
+	1. [Inline](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#inline)
+	2. [Codeblocks](https://github.com/bths-solar-car/contributing/blob/master/MARKDOWN-STYLE.md#codeblocks)
 
 ## Doc Style
 
